@@ -5,11 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Microsoft - Official Home Page</title>
 </head>
 <body>
-    <div class="mx-4 bg-red-900 text-white">
-        Loremdipisicing elit. Hic distinctio iure perferendis suscipit. Cupiditate accusantium odio suscipit quam ducimus voluptatum, nesciunt nam, porro velit, dolor in asperiores beatae error voluptatibus.
-      </div>
+    <div class="navbar flex justify-between items-center p-4">
+        <div class="flex justify-center items-center md:order-2">
+            <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            </div>
+             <div class="search md:hidden">SearchIcon</div>
+        </div>
+
+        <div class="logo text-center flex md:order-1">
+            <div>Microsoft</div>
+
+            <div class="features absolute w-fit md:static md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0">
+                <div class="fitem">Microsoft 365</div>
+                <div class="fitem">Office</div>
+                <div class="fitem">Windows</div>
+                <div class="fitem">Surface</div>
+                <div class="fitem">Xbox</div>
+                <div class="fitem">Support</div>
+            </div>
+        </div>
+        <div class=" cart text-center md:order-3 flex">
+            <div class="search hidden md:block">All Microsoft SearchIcon</div> 
+            <div>Cart Account</div>
+        </div>
+    </div>
 </body>
 </html>
