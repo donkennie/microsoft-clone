@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.microsoft-heroPage{
+    background-image: url("/assets/microsoft-background-md-size.avif");
+    object-fit: contain !important;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    padding: 8rem;
+}
+
+@media screen and (max-width: 1084px) {
+    .microsoft-heroPage{
+        background-image: url("/assets/microsoft\ background\ image.webp");
+    }
+}
